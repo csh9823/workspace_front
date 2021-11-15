@@ -1,0 +1,40 @@
+@charset "UTG-8";
+
+h2 {color: blue;}
+h3 {color: brown;}
+li {color: cyan;}
+
+ /*
+ <head>
+<link rel="stylesheet" href="./main.css"> <!-- 1. 외부 스타일 시트 css로부터 불러옴 가장 선호하는 방식-->
+ 
+        <style>
+            h1~p h1의 형제 요소중 p만 선택
+            h2 {color: blue;} 헤더 색 변경
+            h3 {color: brown;}
+
+ .green {color: #00ff00;} .을 붙이면 클레스 명령어 class="green" 클레스 지정 부분 색 바꾸기
+            .red {background-color: #ff0000; font-size: 30px;} /*background-color 배경색 변경
+            .px {font-size: 45px;} 폰트 사이트 변경
+            #blue {color: #0000ff;}  #=id  하나의 문서에 하나만 쓸 수 있음(id는 같은 이름을 가질 수 없음 다른 이름으로 여러 개 가능)
+
+p.red(p태그인것만 변환 p .red 하위 선택자 p는 변환하지 않고 자손만 변환 p>red body>ul>li 복수 지정 가능자식 선택자 자식 변환 ) {
+                    color: #ff0000;
+                    font-size: 25px;
+                    ul>li, thead>tr>th, h3.red {color: crimson;} (,을 넣어서 한줄에 가능
+                 }    
+                
+                
+                 td>a[href] {background-color: rgb(0, 7, 21);} (속성 값 지정 방법
+                 
+                 순서 매우중요
+                 a:link {color: deeppink} 링크가 있는 글씨인 경우 색 변환
+                 a:visited {color: #000;} 방문 했을 경우 색 변환
+                 a:hover {color: darkred;} 마우스 올렸을때 글씨 색 변환
+                 a:active {color: forestgreen;} 마우스 누르고 때기 직전의 색
+                 
+                 a:link {color: deeppink; text-decoration: none;} text-decoration: none;  줄 제거
+                 a:active {color: forestgreen; text-decoration: underline} text-decoration: underline  마우스오버일때 파란색 아래선
+</style>
+</head>
+/ *

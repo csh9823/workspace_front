@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>황일영의 홈페이지 입니다.</title>
+        <link rel="stylesheet"  href="./assets/css/mysite.css">
+        <link rel="stylesheet"  href="./assets/css/board.css">
+    
+        <style>
+         #main-body #table th, #main-body #table td{
+             padding: 10px 0px 10px 0px;
+         }
+
+
+           #table{
+               float: left;
+               
+           }
+
+           #text{
+               margin-top: 20px;
+               margin-bottom: 10px;
+               float: right;
+           }
+
+           .nice{
+               margin-top: 10px;
+               float: right;
+           }
+
+           .nice2>ul>li{
+               margin-top: 10px;
+               float: left;
+               padding: 0px 5px 0px 0px;
+           }
+
+           .nice2>ul>.nice2-first{
+               padding: 0px 5px 0px 330px ;
+           }
+        </style>
+    </head>
+    
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">               
+                <h1><a href="">MySite</a></h1>    
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+    
+            <div id="nav">
+                <ul class="clearfix">
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li>방명록</li>
+                </ul>
+            </div>
+    
+            <!-- contents -->
+            <div id="contents2" class="clearfix">
+                <!-- aside -->
+                <div id="aside">
+                    <h2>게시판</h2>
+
+                    <ul>
+                        <li>일반 게시판</li>    
+                        <li>댓글 게시판</li>    
+                        <li>첨부 게시판</li>    
+                    </ul>
+                </div>
+                <!-- /aside -->
+                
+                <!-- main -->
+                <div id="main">
+                    <div id="main-header" class="clearfix">
+                        <h3>일반게시판</h3>
+                      
+                        <ul class="clearfix">
+                           <li>홈</li>
+                           <li>게시판</li>
+                           <li class="last">일반게시판</li>
+                        </ul>
+                   
+                    </div>
+                    
+                    <div id="main-body" >
+                        
+                        <div id="text">
+                            <input type="text"  placeholder="">
+                            <button>검색</button>
+                        </div>
+
+                        <div>
+                           <table id="table" class="clearfix">
+
+                            <colgroup>
+                                <col style="width: 50px;">
+                                <col style="width: 450px;">
+                                <col style="width: 100px;">
+                                <col style="width: 100px;">
+                                <col style="width: 100px;">
+                                <col style="width: 100px;">
+                            </colgroup>
+
+                            <thead>
+                                <tr>
+                                    <th>번호</th>
+                                    <th>제목</th>
+                                    <th>글쓴이</th>
+                                    <th>조회수</th>
+                                    <th>작성일</th>
+                                    <th>관리</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>123</td>
+                                        <td class="text-left">게시판 게시글 입니다.</td>
+                                        <td>정우성</td>
+                                        <td>1232</td>
+                                        <td>2021-11-03</td>
+                                        <td>삭제</td>
+                                    </tr>
+                    
+                                    <tr>
+                                        <td>123</td>
+                                        <td class="text-left">게시판 게시글 입니다.</td>
+                                        <td>정우성</td>
+                                        <td>1232</td>
+                                        <td>2021-11-03</td>
+                                        <td>삭제</td>
+                                    </tr>
+                    
+                                    <tr>
+                                        <td>123</td>
+                                        <td class="text-left">게시판 게시글 입니다.</td>
+                                        <td>정우성</td>
+                                        <td>1232</td>
+                                        <td>2021-11-03</td>
+                                        <td>삭제</td>
+                                    </tr>
+                    
+                                    <tr class="last">
+                                        <td>123</td>
+                                        <td class="text-left">게시판 게시글 입니다.</td>
+                                        <td>정우성</td>
+                                        <td>1232</td>
+                                        <td>2021-11-03</td>
+                                        <td>삭제</td>
+                                    </tr>
+                    
+                                </tbody>
+                        </table >
+                        </div>
+                            <div class="nice2">
+                                <ul>
+                                    <li class="nice2-first">◀</li>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                    <li>6</li>
+                                    <li>7</li>
+                                    <li>8</li>
+                                    <li>9</li>
+                                    <li >10</li>
+                                    <li class="nice2-last">▶</li>
+                                </ul>
+
+                            </div>
+                            <div class="nice">
+                                <button><a href="./게시판 글 작성.html">글쓰기</a></button> 
+                            </div>
+                        
+                    </div>
+                    
+                </div>
+                <!-- /main -->
+            </div>
+            <!-- /contents -->
+
+    
+            <div id="footer">
+                Copyright (c) 2021 황일영. All right reserved
+            </div>
+
+        </div>
+
+
+        
+
+    </body>
+
+</html>

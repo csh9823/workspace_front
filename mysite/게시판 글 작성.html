@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>황일영의 홈페이지 입니다.</title>
+        <link rel="stylesheet"  href="./assets/css/mysite.css">
+        <link rel="stylesheet"  href="./assets/css/board.css">
+    
+        <style>
+            .la1{
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+            }
+
+            .la2{
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+            }
+
+         .text2>input{
+             
+             width: 500px;
+         }
+
+         .la3{
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+         }
+
+         .la4{
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+         }
+
+         .la5{
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+         }
+
+         .la6{
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+         }
+         .la7{
+             text-align: center;
+         }
+         #rdo1, #rdo2, #rdo3, #rdo4{
+             margin-right: 5px;
+           
+
+         }
+
+         #chk1, #chk2, #chk3{
+            margin-right: 5px;
+         }
+
+         .box2{
+            width: 600px;
+            height: 300px;
+         }
+        </style>
+    </head>
+    
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">               
+                <h1><a href="">MySite</a></h1>    
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+    
+            <div id="nav">
+                <ul class="clearfix">
+                    <li>입사지원서</li>
+                    <li>게시판</li>
+                    <li>갤러리</li>
+                    <li>방명록</li>
+                </ul>
+            </div>
+    
+            <!-- contents -->
+            <div id="contents2" class="clearfix">
+                <!-- aside -->
+                <div id="aside">
+                    <h2>게시판</h2>
+
+                    <ul>
+                        <li>일반 게시판</li>    
+                        <li>댓글 게시판</li>    
+                        <li>첨부 게시판</li>    
+                    </ul>
+                </div>
+                <!-- /aside -->
+                
+                <!-- main -->
+                <div id="main">
+                    <div id="main-header" class="clearfix">
+                        <h3>일반게시판</h3>
+                      
+                        <ul class="clearfix">
+                           <li>홈</li>
+                           <li>게시판</li>
+                           <li class="last">일반게시판</li>
+                        </ul>
+                   
+                    </div>
+                    
+                    <div id="main-body">
+                        <form action="" method=""> 
+                            <div class="text1">
+                                <label for="u1" class="la1">게시판선택</label>
+                                <select for ="u1" name="telecml">
+                                    <option value="" selected="selected" >선택해주세요</option> <!--selected="selected" 미리 선택 가능 -->
+                                    <option value="sk">일반게시판</option>
+                                    <option value="kt">갤러리</option>
+                                    <option value="lg">입사지원서</option>
+                                    <option value="et">방명록</option>
+                                </select>
+                            </div>
+                            
+                        <div class="text2">
+                            <label for="u2"  class="la2">제목</label>
+                                <input for="u2" type="text" placeholder="제목을 입력해 주세요">
+                            </div>
+
+                            <div class="text3">
+                                <label for="u3"  class="la3">비밀번호</label>
+                                <input type="password" name="upw" placeholder="패스워드를 입력하세요">
+                            </div>
+                            
+                            <div class="text4">
+                                <label class="la4">공개범위</label>
+                                
+                                <label for="rdo1">본인</label>
+                                <input  id="rdo1" type="radio" name="fruit" value="apple">
+
+                                <label for="rdo2">로그인회원</label>
+                                <input  id="rdo2" type="radio" name="fruit" value="apple">
+
+                                <label for="rdo3">친구</label>
+                                <input  id="rdo3" type="radio" name="fruit" value="apple">
+
+                                <label for="rdo4">전체</label>
+                                <input  id="rdo4" type="radio" name="fruit" value="apple" checked="checkbox">
+                                
+                            </div>
+
+                            <div>
+                                <label class="la5">허용범위</label>
+
+                                <label for="chk1">댓글허용</label>
+                                <input id= "chk1" type="checkbox" name="pet" value="dog" checked="checkbox">
+                                <label for="chk2">답글허용</label>
+                                <input id="chk2" type="checkbox" name ="pet" value="dog">
+                                <label for="chk3">좋아요허용</label>
+                                <input id="chk3" type="checkbox" name="pet" value="dog">
+                            </div>
+
+                            <div>
+                                <textarea name="content" class="box2"></textarea>
+                            </div>
+
+                            <div>
+                                <label class="la6">첨부파일</label>
+                                <input type="file" name="file" value="">
+                            </div>
+                            <hr>
+                            <div class="la7">
+                                <button type="submit">저장</button>
+                                <button type="reset">초기화</button>
+                            </div>
+                         </form>
+                    </div>
+                    
+                </div>
+                <!-- /main -->
+            </div>
+            <!-- /contents -->
+
+    
+            <div id="footer">
+                Copyright (c) 2021 황일영. All right reserved
+            </div>
+
+        </div>
+
+
+        
+
+    </body>
+
+</html>

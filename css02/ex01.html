@@ -1,0 +1,70 @@
+<!DOCTYPE html>>
+
+<html lang="ko">
+
+<head>
+<meta charset="UTF-8">
+<title>스타일시트</title>
+<style>
+
+    .box-red{
+    width: 500px;
+    height:  150px;
+    background-color: #f00;
+
+    }
+
+    .box-blud {
+    width: 500px;
+    height:  150px;
+    background-color: #00f;
+    }
+.span-red{
+    display: inline-block; /*인라인 요소는 가로세로를 적용 못 하지만 inline-block 을 사용하면 적용가능 인라인 요소에 가로세로 적용 여부를 확인 블록 요소 div, h1~6, p, ul, ol, li, table 인라인 요소 span, a, strong 인라인-블록 요소 form관련태그, img*/
+    width: 500px;
+    height: 60px;
+    background-color: #f00;
+}
+
+.span-blud{
+    width: 150px;
+    height:  150px;
+    background-color: blue;
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+
+</body>
+<div class="box-red">
+ css에서 div 가로 세로가 어떻게 되는지 확인해 보겠습니다.
+</div>
+
+<div class="box-blud">
+    css에서 div 가로 세로가 어떻게 되는지 확인해 보겠습니다.
+</div>
+
+
+<div class="box-red">
+    css에서 div 가로 세로가 어떻게 되는지 확인해 보겠습니다.
+</div>
+
+<p>
+   <span class="span-red">강아지</span>
+    <span class="span-blud">고양이</span>
+    <input class="span-red" type="text" name="uid" value="">
+    <a class="span-blud" href="https://www.naver.com/">네이버</a>
+    <br>
+    <img src="./img/jung.jpg" class="span-blud"> <!-- 인라인 블록요소 form관련태그, img-->
+</p>
+
+
+</html>

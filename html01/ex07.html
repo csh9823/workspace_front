@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+    </head>
+
+    <body>
+        <h1>기본태그</h1>
+        <h2>7. thead tbody tfoot </h2>
+        <table border="1">
+            <thead>
+
+                <tr>
+                    <th>번호</th>
+                    <th>학교수</th>
+                    <th>학급수</th>
+                    <th>학생수</th>
+                    <th>교원수</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>117</td>
+                <td>252</td>
+                <td>5547</td>
+                <td>474</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>111</td>
+                <td>1720</td>
+                <td>37686</td>
+                <td>2632</td>
+            </tr>
+        </tbody>
+        </table>
+        <br><br><br>
+
+        <table border="1">
+            <colgroup> <!-- colgroup(부모) <col style="width: 120px;">(자식) %로도 지정 가능 테이블의 열 폭을 지정-->
+                <col style="width: 120px;">
+                <col style="width: 60px;">
+                <col style="width: 60px;">
+                <col style="width: 80px;">
+                <col style="width: 100px;">
+            </colgroup>
+        
+            <caption>제주특별자치도 학교현황</caption>
+            <thead> <!-- thead 절대 값 알트 쉬프트 드래그 세로 끌기 수정가능-->
+                <tr>
+                    <th>구분</th>
+                    <th>학교수</th>
+                    <th>학급수</th>
+                    <th>학생수</th>
+                    <th>교원수</th>
+                </tr>
+            </thead>
+
+            <tbody> <!-- tbody 데이터-->
+                <tr>
+                <th>유치원</th>
+                <td>117</td>
+                <td>252</td>
+                <td>5547</td>
+                <td>474</td>
+                </tr>
+
+                <tr>
+                <th>초등학교</th>
+                <td>11</td>
+                <td>1720</td>
+                <td>37686</td>
+                <td>2632</td>
+                </tr>
+                    <tr>
+                    <th>중학교</th>
+                    <td>44</td>
+                    <td>699</td>
+                    <td>21274</td>
+                    <td>1412</td>
+                    </tr>
+            </tbody>
+            <tfoot> <!-- tfoot 합계 결과-->
+                <tr>
+                    <th>합계</th>
+                    <td>272</td>
+                    <td>2671</td>
+                    <td>64507</td>
+                    <td>4518</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

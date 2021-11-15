@@ -1,0 +1,26 @@
+@charset "UTG-8";
+
+h1{font-family: 궁서;} /* 글씨체 변환*/
+body{font-family: 맑은 고딕;}
+h2{font-size: 25px;}
+h3{font-size: 20px;}
+h1{ word-spacing: 15px; letter-spacing: 30px}
+.bita {font-style: italic; font-weight: bold; color: #0000ff;} /* 이텔릭체 변환+두꺼운 글씨*/
+.rita {font-style: italic; font-weight: bold; color: #ff0000;}
+.bcg {background-color: #494949;} /* 배경색 전환*/
+.undgreen {color: #0f0; text-decoration: underline;} /* 텍스트 색 변환+밑줄*/
+.und{text-decoration: underline;}
+.ind{text-indent: 30px; line-height: 35px;}
+.bgreen{font-weight: bold; color: #0f0;}
+.blita{font-style: italic; color: #0000ff;}
+.bred{font-weight: bold; color: #ff0000;}
+ul{list-style-type: square;}
+ol{list-style-type: none;} /* ol ul 표시제거*/
+thead{background-color: #c8ebfa;}
+tbody>tr:hover{background-color: #edd3ed;}
+tbody a:link {color:#000000; text-decoration: none;}
+tbody a:visited {color:#ff0000;}
+tbody a:hover {color: #0000ff; text-decoration: overline;}
+tbody a:active {color: #0000ff; text-decoration: underline;}
+.speed:before{content: "약";} /*앞에 글짜 입력*/
+.speed:after{content: "초";} /*뒤에 글짜 입력*/

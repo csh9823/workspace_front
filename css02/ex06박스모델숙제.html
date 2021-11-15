@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <style>
+            .d{
+                width: 100px;                
+                background-color: red;
+                border: 1px solid black;
+                border-radius: 5px;
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .db{
+                width: 100px;                
+                background-color: blue;
+                border: 1px solid black;
+                border-radius: 5px;
+                text-align: center;
+                display: table-cell;     /* 테이블로 변환 블록을 인라인으로 바꿈 */
+                vertical-align: middle; /* 블록에선 안 먹음 위와 세트 */
+            }
+
+            .b{
+                width: 100px;
+                height: 100px;
+                background-color: yellow;
+                border: 1px solid black;
+                border-radius: 5px;
+            }
+
+
+            .login{
+                /*인라인을 블록으로 바꿈*/
+                padding: 0px 40px 0px 40px;
+                width : 100px;
+                height : 50px;
+                border : 1px solid #000;
+                background-color: red;
+                
+            }
+
+            .red:hover{
+                color: floralwhite;
+                background-color: deepskyblue;
+            }
+            .red{
+                width: 200px;
+                height: 100px;
+                border-color: blue;
+                background-color: darkred;
+                border-radius: 5px;
+            }
+
+
+            .blue:hover{
+                
+                color: floralwhite;
+                background-color: deepskyblue;
+            }
+            .blue{
+                width: 200px;
+                height: 100px;
+                background-color: #00f;
+                border-radius: 5px;
+                cursor: pointer; /*커서 포인트 바꾸는법*/
+            }
+
+            .gold:hover{
+                color: floralwhite;
+                background-color: deepskyblue;
+            }
+            .gold{
+                width: 200px;
+                height: 100px;
+                background-color:gold;
+                border-radius: 5px;
+            }
+        </style>
+        <!-- 스타일시트자리 -->
+    </head>
+
+    <body>
+        <div class="d">저장버튼</div>
+        <br>
+        <div class="db">저장버튼</div>
+        <br>
+        <button class="b">저장버튼</button><br>
+        <br>
+        <a href="" class="login">로그인</a>
+        <br>
+    <br><div><button class="red" type="button" >저장</button></div>
+        <div><button class="blue" type="button" >삭제</button></div>
+        <div><button class="gold" type="button" >수정</button></div>
+
+    </body>
+
+</html>
+
+<!-- 마우스 올렸을때 색 변환 -->

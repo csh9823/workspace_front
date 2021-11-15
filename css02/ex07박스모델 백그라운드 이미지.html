@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <style>
+            .bg-img{
+                /* 이미지 파일 크기 1024*680 */
+                width: 2000px; /*백그라운드 배경크기*/
+                height: 1600px;
+                
+                background-color: #ff0000;
+                
+                background-image: url("./img/back_img01.jpg");
+
+                background-repeat: no-repeat; /*한번만 표시하고 반복하지 않음*/
+                /* background-repeat: repeat-x; 한번만 표시하고 반복하지 않음 */
+                /* background-repeat: repeat-y; */
+                /* background-repeat: repeat; 가로세로반복 */
+                background-size:auto;
+                /*auto 원래배경 이미지 만큼표시(기본값)
+                contain 요소안에 배경이미지가 다 들어오도록 이미지를 확대/축소 합니다.
+                cover 배경이미지가 요소를 모두 덮도록 이미지를 확대/축소 합니다.
+                px 지정된 값으로 이미지를 확대 축소합니다.
+                % 지정된 비율로 이미지를 확대 축소합니다.(부모기준 */
+                background-position: center bottom;
+                /* 속성값 설명
+                    left | center | right 수평위치
+                    top | center | bottom 수직위치
+                */
+                background-attachment: fixed
+                /* scroll 화면과 함께 배경이미지도 스크롤 됩니다.(기본값)
+                fixed 화면이 스크롤 되더라도 배경이미지는 고정됩니다.
+                */
+                /* background: #022250 url(‘./img/back_img01.jpg') no-repeat fixed center center; 한줄에 묶는법*/
+            }
+        </style>
+        <!-- 스타일시트자리 -->
+    </head>
+
+    <body>
+
+        <div class="bg-img">
+            
+        </div>        
+
+    </body>
+
+</html>

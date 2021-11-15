@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>html</title>
+    </head>
+    <body>
+    <form action="" method=""> <!-- action=주소 넣는칸 method=(어떻게 보낼지 만드는 칸) get 주소창에 표시되서 넘어감 post 주소창에 안 붙고 다른 방식으로 넘어감-->
+        <!-- 이름 <input type="text" name="uname"> <br> uname="변수값" -->
+        <label for="u-id">아이디</label> <!-- lable 텍스트 칸 옆에 글자를 눌러도 텍스트칸 클릭 가능하게 만듬 대신 칸의 id="아이디"를 만들고 lable칸에 for="아이디를 넣어 줘야함"-->
+        <input id="u-id" type="text" name="uid" placeholder="아이디를 입력하세요"> <br> <!--  placeholder= 넘어가지 않는 값 설명문에 사용가능-->
+        <label for="u-pw">패스워드</label>
+        <input id="u-pw" type="password" name="upw" placeholder="패스워드를 입력하세요"> <br>
+        <!-- 아이디 <input type="text" name="gender" value="남자" placeholder="성별을 입력하세요"> <br> value="남자" 고정 값 넣어둘 수 있음 -->
+        <input type="file" name="file" value=""> <br>
+        <label for="chk-book">독서</label>
+        <input id="chk-book" type="checkbox" name="hobby" value="book" checked="checkbox"> <br> <!-- checked="checkbox" 미리 체크해두는법-->
+        <label for="chk-music">음악</label>
+        <input id="chk-music" type="checkbox" name="hobby" value="music"> <br>
+        <label for="chk-trip">여행</label>
+        <input id="chk-trip" type="checkbox" name="hobby" value="trip"> <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="chk-dog">개</label>
+        <input id= "chk-dog" type="checkbox" name="pet" value="dog"> <br>
+        <label for="chk-cat">고양이</label>
+        <input id="chk-cat" type="checkbox" name ="pet" value="dog"> <br>
+        <label for="chk-bird">새</label>
+        <input id="chk-bird" type="checkbox" name="pet" value="dog"> <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="rdo-apple">사과</label>
+        <input id="rdo-apple" type="radio" name="fruit" value="apple"><br>
+
+        <label for="rdo-grape">포도</label>
+        <input id="rdo-grape" type="radio" name="fruit" value="grape"><br>
+
+        <label for="rdo-orange">오렌지</label>
+        <input id="rdo-orange" type="radio" name="fruit" value="orange"><br>
+        <br>
+        <br>
+        <br>
+
+        <label for="rdo=1">1월</label>
+        <input id="rdo=1" type="radio" name="month" value="1"><br>
+
+        <label for="rdo=2">2월</label>
+        <input id="rdo=2" type="radio" name="month" value="2"><br>
+
+        <label for="rdo=3">3월</label>
+        <input id="rdo=3" type="radio" name="month" value="3"><br>
+
+        <br>
+        <br>
+        <br>
+        <select name="telecml">
+            <option value="" selected="selected" >이동통신사를 선택해 주세요</option> <!--selected="selected" 미리 선택 가능 -->
+            <option value="sk">SKT</option>
+            <option value="kt">KTF</option>
+            <option value="lg">LG</option>
+            <option value="et">ETC</option>
+        </select>
+        <br>
+        <br>
+        <br>
+
+        <textarea name="content">기본값</textarea> <!-- 텍스트 상자 안에 넣은 값 전송 가능-->
+
+        <br>
+        <br>
+        <br>
+
+        <fieldset>
+
+        </fieldset>
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <button type="submit">저장</button> <!-- " "안에 글에 따라 효과를 다르게함 submit 전송하기 reset 초기화 “button팝업창호출 버튼 만들기 img파일도 가능 추천 명령어-->
+        
+    </form>
+        <!-- <input type="button" value="저장"> 버튼 만들기  value(추천하지 않음) 버튼 안에 글 넣기 가능 이미지 넣기 불가능 -->
+
+    </body>
+</html>
+<!--password 비밀번호 입력(입력내용이 안보임)
+         hidden 사용자에게 보이지 않음)
+         file 파일첨부
+         radio 주어진 항목중 1개 선택
+         checkbox 주어진 항목중 여러 개 선택
+        <input type="text"> id 넣거나 한줄 텍스트 사용 텍스트 입력칸 만들기
+   <br> <input type="password"> 
+   <br> <input type="file"> 
+   <br> <input type="radio">
+   <br> <input type="checkbox"> 
+   <br> <input type="hidden"> -->
